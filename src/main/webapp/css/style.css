@@ -1,0 +1,168 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+p, a {
+    color: white;
+    margin: 10px;
+}
+
+h1, h2 {
+    color: white;
+}
+
+body {
+    background-color: sandybrown;
+    margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.svg-wrapper {
+    width: 300px;
+    height: 300px;
+}
+
+.radio-label {
+    background-color: chocolate;
+    width: 100px;
+}
+
+.checkbox-label {
+    background-color: chocolate;
+    width: 70px;
+}
+.select-label{
+    background-color: chocolate;
+    width: 70px;
+}
+
+.selected-x {
+    border-radius: 16px;
+    background: #e09f65;
+    box-shadow: inset 5px 5px 10px #b77642,
+    inset -5px -5px 10px #d9a070 !important;
+}
+
+.neo-select {
+    color: #535353;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 16px;
+    background: #a97744;
+    box-shadow:
+            inset 5px 5px 10px #d29d64,
+            inset -5px -5px 10px #cda06d;
+    background: #dfc9b2;
+}
+
+.neo-select:focus {
+    color: #535353;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 16px;
+    background: #dfc9b2;
+    box-shadow:  6px 6px 11px #966735,
+    -6px -6px 11px #fccf9f,
+    inset 5px 5px 10px #d29d64,
+    inset -5px -5px 10px #cda06d;
+}
+
+.neo-submit {
+    color: chocolate;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    width: 200px;
+    height: 45px;
+    border-radius: 16px;
+    background: #fccf9f;
+    box-shadow:  6px 6px 11px #966735,
+    -6px -6px 11px #dfc9b2,
+    inset 5px 5px 10px #d29d64,
+    inset -5px -5px 10px #cda06d;
+
+}
+
+.neo-submit:hover{
+    border-radius: 16px;
+    background: #eecba7;
+    box-shadow: inset 5px 5px 10px #ab7f5e,
+    inset -5px -5px 10px #c89765;
+}
+
+.neo-submit:active {
+    border-radius: 16px;
+    background: #dfc9b2;
+    box-shadow: inset 5px 5px 10px #d29d64,
+    inset -5px -5px 10px #cda06d;
+}
+
+.neo-btn {
+    color: chocolate;
+    margin: 10px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 16px;
+    background: #fccf9f;
+    box-shadow:  6px 6px 11px #966735,
+    -6px -6px 11px #dfc9b2,
+    inset 5px 5px 10px #d29d64,
+    inset -5px -5px 10px #cda06d;
+}
+
+.neo-btn:active {
+    background-color: #d29d64;
+    border-radius: 16px;
+    box-shadow: inset 5px 5px 10px #966735,
+    inset -5px -5px 10px #d29d64 !important;
+}
+
+.neo-btn:focus {
+    border-radius: 16px;
+    background: #d29d64;
+    box-shadow: inset 5px 5px 10px #966735,
+    inset -5px -5px 10px #d29d64;
+}
+
+button:active, button:focus {
+    outline: none !important;
+}
+
+.table-wrapper {
+    height: 350px;
+    width: 100%;
+    overflow-y: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.graphic-box {
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 85px;
+
+    opacity: 1;
+    box-shadow:
+            inset 5px 5px 10px #DE9866,
+            inset -5px -5px 10px #DE9866;
+    background: #ffd29b;
+}
+
+header {
+    background-color: chocolate;
+    margin-bottom: 30px;
+    opacity: 0;
+    opacity: 1;
+    box-shadow:  6px 6px 11px #9C5630,
+    -6px -6px 11px #FFAB5F;
+
+}
